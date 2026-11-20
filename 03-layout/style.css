@@ -1033,3 +1033,85 @@ header {
 		}
 	}
 }
+
+.shop-section {
+	background-color: #e0e3e8;
+	border-radius: 8px;
+	margin: 70px auto 140px auto;
+	padding: 25px 30px 50px;
+	display: flex;
+
+	.left-side {
+		.title {
+			font-size: 14px;
+			color: var(--dark-red);
+			font-family: var(--sub-font-family);
+			font-weight: 500;
+			margin: 18px 0;
+
+			i {
+				font-size: 10px;
+				margin: 0 6px;
+				line-height: 14px;
+			}
+		}
+
+		.section-header {
+			h3 {
+				font-family: var(--sub-font-family);
+				font-size: 28px;
+				font-weight: 500;
+				margin: 20px 0;
+			}
+
+			p {
+				color: var(--main-gray);
+				margin: 25px 0;
+			}
+
+			.description {
+				.shop-info {
+					font-size: 12px;
+					display: flex;
+
+					i {
+						color: var(--dark-red);
+
+						&.fa-location-dot {
+							margin-left: 10px;
+						}
+					}
+
+					span {
+						color: var(--dark-gray);
+						margin-left: 2px;
+					}
+				}
+			}
+		}
+	}
+
+	.right-side {
+		width: 45%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		input {
+			margin: 0 6px;
+			border: 0;
+			font-weight: 700;
+			padding: 12px 20px;
+			border-radius: 5px;
+
+			&:nth-child(1) {
+				background-color: var(--dark-red);
+				color: white;
+			}
+
+			&:nth-child(2) {
+				background-color: #a8abb0;
+			}
+		}
+	}
+}
